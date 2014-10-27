@@ -6,7 +6,7 @@ topdir=/media/ephemeral1/s3logs
 s3bucket=puremagic-logs
 
 # fetch all new logs from s3
-~/bin/download-s3-logs $topdir/new $s3bucket "" ""
+~/bin/download-s3-logs ~/bin/download-s3-logs.config.json $topdir/new $s3bucket "" ""
 echo
 
 cd $topdir/new
