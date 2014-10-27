@@ -1,4 +1,4 @@
-DMD=dmd
+DMD?=dmd
 OUTPUT_DIR=obj
 
 DFLAGS=-m64 -gc
